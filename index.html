@@ -3127,7 +3127,7 @@ function setMuted(m) {
   try { localStorage.setItem('doodlelab.muted', muted ? '1' : '0'); } catch (e) { /* storage blocked */ }
 }
 
-const APP_VERSION = '1.0.0';                                  // bump this with every release
+const APP_VERSION = '1.0.1';                                  // bump this with every release
 function renderSettings(view) {
   const body = $('setBody'), card = $('setCard');
   card.classList.toggle('policyView', view === 'privacy');
